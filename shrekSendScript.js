@@ -13,13 +13,13 @@ function enviarScript(scriptText){
     
             const event = new InputEvent('input', { bubbles: true });
     
-            const textbox = document.querySelector('div._13NKt[data-tab="9"]');
+            const textbox = document.querySelector('div.p3_M1[data-tab="10"]');
     
             textbox.textContent = lines[i];
     
             textbox.dispatchEvent(event);
     
-            document.querySelector("button._4sWnG").click();                   
+            document.querySelector("button.tvf2evcx").click();                   
 
         }
         i++;
